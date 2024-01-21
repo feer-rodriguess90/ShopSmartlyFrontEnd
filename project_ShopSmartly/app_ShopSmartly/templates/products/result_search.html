@@ -3,6 +3,7 @@
 {% load humanize %}
 <form style="text-align: center;" action="{% url 'results' %}" method="POST">
     <div>
+        {% csrf_token %}
         <h1 style="text-align: center;">Search</h1>
         <input type="text" class="form-control-lg" name="product" placeholder="search...">
         <input class="form-control-lg" type="submit" value="🔎">
@@ -19,11 +20,13 @@
             <th>Quotation Date</th>
         </tr>
         {% for data in datas %}
-        <td><img style="max-height: 150px;max-width: 150px;" src="{{ data.link_image }}"></td>
-        <td>{{ data.name }}</td>
-        <td>R${{ data.price | intcomma }}</td>
-        <td>{{ data.site }}</td>
-        <td>{{ data.quotation_date|date:"d/m/Y" }}</td>
+        <tr>
+            <td><img style="max-height: 150px;max-width: 150px;" src="{{ data.link_image }}"></td>
+            <td>{{ data.name }}</td>
+            <td>R${{ data.price | intcomma }}</td>
+            <td><a href="{{ data.site }}">{{ data.site }}</a></td>
+            <td>{{ data.quotation_date|date:"d/m/Y" }}</td>
+        </tr>
         {% endfor %}
     </table>
 </div>
