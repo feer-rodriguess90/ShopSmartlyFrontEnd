@@ -31,7 +31,7 @@ This project utilizes Python, Django, Selenium, web scraping, and connects to an
    - Go to the search box located at the top of the page.
    - Type the desired product and press Enter or click on the magnifying glass icon.
 
-![Menu_image](https://github.com/feer-rodriguess90/ShopSmartlyFrontEnd/blob/main/Image/Video1.mp4)
+![Menu_image](https://github.com/feer-rodriguess90/ShopSmartlyFrontEnd/blob/main/Image/Video2gif.gif)
  
  - **2. View Search Results:** 
    - The result page will display a list of products organized by site.
