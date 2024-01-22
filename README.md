@@ -27,7 +27,7 @@ This project utilizes Python, Django, Selenium, web scraping, and connects to an
 
 ## Usage
 
- ### **1. Search for Products:**
+### **1. Search for Products:**
    - Go to the search box located at the top of the page.
    - Type the desired product and press Enter or click on the magnifying glass icon.
 
@@ -40,19 +40,19 @@ This project utilizes Python, Django, Selenium, web scraping, and connects to an
 ![gif](https://github.com/feer-rodriguess90/ShopSmartlyFrontEnd/blob/main/Image/Video2gif.gif)
 
 ### **3. Navigate to External Sites:**
-    - To view more details or make a purchase, click on the site link associated with each product.
+  - To view more details or make a purchase, click on the site link associated with each product.
    
 ![gif](https://github.com/feer-rodriguess90/ShopSmartlyFrontEnd/blob/main/Image/Video3gif.gif)
       
 ### **4. Navigation:**  
-    - Return to the main page by clicking on the Shop Smartly! navbar name or icon.
+  - Return to the main page by clicking on the Shop Smartly! navbar name or icon.
    
 ![gif](https://github.com/feer-rodriguess90/ShopSmartlyFrontEnd/blob/main/Image/Video4gif.gif)
   
 ### **5. Upcoming Upgrades:**
-    - Future upgrades will include the ability to search by category, allowing for more refined searches.
-    - Save your favorite products to keep track of price updates and easily find them later.
-    - Register an account to receive notifications for selected items, ensuring you stay informed about any price changes.
+  - Future upgrades will include the ability to search by category, allowing for more refined searches.
+  - Save your favorite products to keep track of price updates and easily find them later.
+  - Register an account to receive notifications for selected items, ensuring you stay informed about any price changes.
    
 ![gif](https://github.com/feer-rodriguess90/ShopSmartlyFrontEnd/blob/main/Image/Video5gif.gif)
 
